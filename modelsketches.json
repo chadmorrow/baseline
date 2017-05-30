@@ -1,0 +1,92 @@
+/* 
+Good lord this would be an awful way to do this
+*/
+
+{
+  "_id" : "asdg98uasoihaeg",
+  "name": {
+    "first" : "Chad",
+    "last" : "Morrow"
+  },
+  "clockNumber" : 380001,
+  "center" : "Las Vegas",
+  "team" : "blue",
+  "hireDate" : "2012-02-28",
+  "rehireDate" : null,
+  "termDate" : null,
+  "status" : "active", //onLeave, Suspended, ??? 
+  "shifts" : [
+    {
+      "sunday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "monday" : {
+        "availability" : {
+          "start" : "2:00pm",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "tuesday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "wednesday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "thursday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "friday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      },
+      "saturday" : {
+        "availability" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        },
+        "schedule" : {
+          "start" : "11:00am",
+          "stop" : "7:00pm"
+        }
+      }
+    }
+  ]
+}

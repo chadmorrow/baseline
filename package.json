@@ -1,0 +1,22 @@
+{
+  "name": "baseline",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mongoup": "mongod --dbpath ~/data/db",
+    "dev": "nodemon app.js",
+    "test": "xo"
+  },
+  "author": "Chad Morrow",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
